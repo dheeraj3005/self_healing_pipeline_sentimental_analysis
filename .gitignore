@@ -1,0 +1,14 @@
+*.log
+*.csv
+*.parquet
+*.json
+*.bin
+*.pt
+*.pth
+*.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+.vscode/    
+input/

@@ -1,0 +1,6 @@
+For the airflow:
+
+airlfow db migrate
+export AIRFLOW_HOME=$(pwd); airflow db migrate --> This is used to make the airflow db to work in the current working directory.
+
+airflow standalone - To run the airlfow and get the GUI path.
