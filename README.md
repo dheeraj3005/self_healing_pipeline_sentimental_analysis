@@ -5,7 +5,7 @@ The pipeline is orchestrated using **Apache Airflow** and leverages **LLM-powere
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - Automated **sentiment analysis** on Yelp review data
 - Built-in **self-healing logic** for common data quality failures
@@ -16,7 +16,7 @@ The pipeline is orchestrated using **Apache Airflow** and leverages **LLM-powere
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ![Self healing pipeline](https://github.com/user-attachments/assets/87aa3e2e-7dfa-4d87-87f0-bc8908433d17)
 
@@ -31,7 +31,7 @@ The pipeline is orchestrated using **Apache Airflow** and leverages **LLM-powere
 
 ---
 
-## 🧠 Self-Healing Capabilities
+##  Self-Healing Capabilities
 
 The pipeline automatically detects and heals the following data quality issues **without manual intervention**:
 
@@ -45,7 +45,7 @@ The pipeline automatically detects and heals the following data quality issues *
 
 ---
 
-## 📊 Sample Health Report
+##  Sample Health Report
 
 Each pipeline run generates a structured health report summarizing quality, recovery, and sentiment outcomes:
 
@@ -65,14 +65,14 @@ Each pipeline run generates a structured health report summarizing quality, reco
     "NEUTRAL": 25
   }
 }
-
-📦 Output Artifacts
+```
+ Output Artifacts
 Output Location
 
 Results are saved under the output/ directory with timestamped filenames for traceability:
 
 output/
-└── sentiment_analysis_summary_2025-12-08_14-30-00_Offset0.json
+└── sentiment_analysis_summary_2026-01-06_14-30-00_Offset0.json
 
 Output Schema
 
@@ -102,3 +102,4 @@ Output Schema
   "healing_statistics": {...},
   "results": [...]
 }
+```
